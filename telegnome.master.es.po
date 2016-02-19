@@ -149,39 +149,37 @@ msgstr "Error en la entrada de la página"
 
 #: ../src/menus.ui.h:1
 msgid "_File"
-msgstr ""
+msgstr "_Archivo"
 
 #: ../src/menus.ui.h:2
 msgid "_Quit"
-msgstr ""
+msgstr "_Salir"
 
 #: ../src/menus.ui.h:3
 msgid "_Settings"
-msgstr ""
+msgstr "_Configuraciones"
 
 #: ../src/menus.ui.h:4
-#, fuzzy
 #| msgid "TeleGNOME: Preferences"
 msgid "_Preferences"
-msgstr "TeleGNOME: Preferencias"
+msgstr "Prefere_ncias"
 
 #: ../src/menus.ui.h:5
-#, fuzzy
 #| msgid "Channels"
 msgid "_Channels"
-msgstr "Canales"
+msgstr "_Canales"
 
 #: ../src/menus.ui.h:6
 msgid "_Help"
-msgstr ""
+msgstr "Ay_uda"
 
 #: ../src/menus.ui.h:7
 msgid "_Contents"
-msgstr ""
+msgstr "Í_ndice"
 
 #: ../src/menus.ui.h:8
 msgid "_About"
-msgstr ""
+msgstr "_Acerca de"
 
 #: ../src/prefs.ui.h:1
 msgid "TeleGNOME: Preferences"
@@ -225,11 +223,11 @@ msgstr "Miscelánea"
 
 #: ../src/prefs.ui.h:13
 msgid "_Cancel"
-msgstr ""
+msgstr "_Cancelar"
 
 #: ../src/prefs.ui.h:14
 msgid "_OK"
-msgstr ""
+msgstr "_Aceptar"
 
 #: ../src/prefs.ui.h:15
 msgid "New/Edit Channel"
@@ -253,7 +251,7 @@ msgstr "Número de página"
 
 #: ../src/telegnome.ui.h:3
 msgid "_Jump to"
-msgstr ""
+msgstr "_Saltar a"
 
 #: ../src/telegnome.ui.h:4
 msgid "Go To Page"
@@ -261,7 +259,7 @@ msgstr "Ir a la página"
 
 #: ../src/telegnome.ui.h:5
 msgid "_Back"
-msgstr ""
+msgstr "_Atrás"
 
 #: ../src/telegnome.ui.h:6
 msgid "Get Previous Page"
@@ -269,7 +267,7 @@ msgstr "Obtener la página anterior"
 
 #: ../src/telegnome.ui.h:7
 msgid "_Forward"
-msgstr ""
+msgstr "_Adelante"
 
 #: ../src/telegnome.ui.h:8
 msgid "Get Next Page"
@@ -277,7 +275,7 @@ msgstr "Obtener la siguiente página"
 
 #: ../src/telegnome.ui.h:9
 msgid "_Home"
-msgstr ""
+msgstr "_Inicio"
 
 #: ../src/telegnome.ui.h:10
 msgid "Go to the home page"
@@ -285,7 +283,7 @@ msgstr "Ir página inicial"
 
 #: ../src/telegnome.ui.h:11
 msgid "_Play"
-msgstr ""
+msgstr "_Reproducir"
 
 #: ../src/telegnome.ui.h:12
 msgid "Toggles auto-paging"
@@ -307,6 +305,7 @@ msgstr "Licencia Pública General GNU, versión 2 o posterior"
 #: ../src/telegnome.ui.h:16
 msgid "translator-credits"
 msgstr "Jorge González <jorgegonz@svn.gnome.org>, 2009"
+msgstr "Yolanda Alvarez Pérez <yolandaa.alvarez.perez@gmail.com>, 2016"
 
 #: ../telegnome.appdata.xml.in.h:2 ../telegnome.desktop.in.h:2
 msgid "Viewer for Teletext pages"
@@ -317,6 +316,9 @@ msgid ""
 "TeleGNOME is a program to display teletext pages over the internet, based on "
 "image feeds from a variety of broadcasters."
 msgstr ""
+"TeleGNOME es un programa para mostrar páginas de teletexto a través de "
+"internet, basado en transmisiones de imagen de una gran variedad de emisoras."
+
 
 #~ msgid "TeleGNOME: Teletext for GNOME"
 #~ msgstr "TeleGNOME: Teletexto para GNOME"
