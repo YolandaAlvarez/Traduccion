@@ -1,0 +1,335 @@
+# translation of telegnome.po.master.po to Español
+# Spanish translation of telegnome.
+# Copyright (C) 2009 telegnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the telegnome package.
+#
+# Jorge González <jorgegonz@svn.gnome.org>, 2009.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: telegnome.po.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-18 13:29+0000\n"
+"PO-Revision-Date: 2016-02-02 10:09+0100\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 2.91.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:1
+msgid "Legacy migration complete"
+msgstr "Migración heredada completada"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:2
+msgid ""
+"Set internally to true to indicate that TeleGNOME has checked for legacy "
+"gnome-config settings and migrated any that existed."
+msgstr ""
+"Establecido internamente para indicar que TeleGNOME ha comprobado y migrado "
+"la configuración heredada de gnome-config que existiera."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:3
+msgid "Channel children"
+msgstr "Canal hijo"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:4
+msgid ""
+"List of channel IDs. Each channel folder uses the org.gnome.telegnome."
+"channel schema."
+msgstr ""
+"Lista de ID de canales. Cada carpeta de canales usa el esquema org.gnome."
+"telegnome.channel."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:5
+msgid "Current channel"
+msgstr "Canal actual"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:6
+msgid "ID of current channel."
+msgstr "ID del canal actual."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:7
+msgid "Zoom factor"
+msgstr "Factor de ampliación"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:8
+msgid "Page zoom factor. Larger numbers produce larger text."
+msgstr ""
+"Factor de ampliación de página. Los números grandes producen un texto más "
+"grande."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:9
+msgid "Automatically switch page at periodic intervals"
+msgstr "Cambiar la página automáticamente en determinados intervalos"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:10
+msgid "The frequency of paging is controlled by the \"interval\" key."
+msgstr "La frecuencia de paginación se controla con la clave «interval»."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:11 ../src/prefs.ui.h:10
+msgid "Paging interval"
+msgstr "Intervalo de paginación"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:12 ../src/prefs.ui.h:11
+msgid "Specifies the interval for the auto-pager, in milliseconds."
+msgstr "Especifica el intervalo para el autopaginado, en milisegundos."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:13
+msgid "Current page number"
+msgstr "Número de página actual"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:14
+msgid "Current subpage number"
+msgstr "Número de subpágina actual"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:15
+msgid "Channel name"
+msgstr "Nombre del canal"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:16
+msgid "Channel description"
+msgstr "Descripción del canal"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:17 ../src/prefs.ui.h:18
+msgid "Page URL"
+msgstr "URL de la página"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:19
+#, no-c-format
+msgid ""
+"URL pattern for pages. Must contain one C format string substitution "
+"accepting an int (e.g. %d), for the page number."
+msgstr ""
+"Patrón de URL para páginas. Debe contener una sustitución de cadenas en C "
+"que acepte un entero (ej. %d), para el número de página."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:20 ../src/prefs.ui.h:19
+msgid "Subpage URL"
+msgstr "URL de la subpágina"
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:22
+#, no-c-format
+msgid ""
+"URL pattern for subpages. Must contain two C format string substitution "
+"accepting ints (e.g. %d), for the page and subpage numbers respectively."
+msgstr ""
+"Patrón de URL para páginas. Debe contener dos sustituciones de cadenas en C "
+"que acepten enteros (ej. %d), para los números de página y subpágina "
+"respectivamente."
+
+#: ../data/org.gnome.telegnome.gschema.xml.h:23
+msgid "Country code"
+msgstr "Código del país"
+
+#: ../src/gui.vala:170
+#, c-format
+msgid "TeleGNOME: %s (%s)"
+msgstr "TeleGNOME: %s (%s)"
+
+#: ../src/gui.vala:378
+msgid "Web server error: Wrong page number?"
+msgstr "Error del servidor web: ¿número de página incorrecto?"
+
+#: ../src/gui.vala:391
+msgid "Error making HTTP connection"
+msgstr "Error al crear la conexión HTTP"
+
+#: ../src/gui.vala:394
+msgid "Internal error in HTTP query code"
+msgstr "Error interno en el código de consulta HTTP"
+
+#: ../src/gui.vala:513
+msgid "Error in page entry"
+msgstr "Error en la entrada de la página"
+
+#: ../src/menus.ui.h:1
+msgid "_File"
+msgstr ""
+
+#: ../src/menus.ui.h:2
+msgid "_Quit"
+msgstr ""
+
+#: ../src/menus.ui.h:3
+msgid "_Settings"
+msgstr ""
+
+#: ../src/menus.ui.h:4
+#, fuzzy
+#| msgid "TeleGNOME: Preferences"
+msgid "_Preferences"
+msgstr "TeleGNOME: Preferencias"
+
+#: ../src/menus.ui.h:5
+#, fuzzy
+#| msgid "Channels"
+msgid "_Channels"
+msgstr "Canales"
+
+#: ../src/menus.ui.h:6
+msgid "_Help"
+msgstr ""
+
+#: ../src/menus.ui.h:7
+msgid "_Contents"
+msgstr ""
+
+#: ../src/menus.ui.h:8
+msgid "_About"
+msgstr ""
+
+#: ../src/prefs.ui.h:1
+msgid "TeleGNOME: Preferences"
+msgstr "TeleGNOME: Preferencias"
+
+#: ../src/prefs.ui.h:2
+msgid "Country"
+msgstr "País"
+
+#: ../src/prefs.ui.h:3
+msgid "Name"
+msgstr "Nombre"
+
+#: ../src/prefs.ui.h:4
+msgid "Move up"
+msgstr "Subir"
+
+#: ../src/prefs.ui.h:5
+msgid "Move down"
+msgstr "Bajar"
+
+#: ../src/prefs.ui.h:6
+msgid "Add..."
+msgstr "Añadir…"
+
+#: ../src/prefs.ui.h:7
+msgid "Delete"
+msgstr "Borrar"
+
+#: ../src/prefs.ui.h:8
+msgid "Edit"
+msgstr "Editar"
+
+#: ../src/prefs.ui.h:9
+msgid "Channels"
+msgstr "Canales"
+
+#: ../src/prefs.ui.h:12
+msgid "Miscellaneous"
+msgstr "Miscelánea"
+
+#: ../src/prefs.ui.h:13
+msgid "_Cancel"
+msgstr ""
+
+#: ../src/prefs.ui.h:14
+msgid "_OK"
+msgstr ""
+
+#: ../src/prefs.ui.h:15
+msgid "New/Edit Channel"
+msgstr "Canal nuevo / editar canal"
+
+#: ../src/prefs.ui.h:16
+msgid "Channel Information"
+msgstr "Información del canal"
+
+#: ../src/prefs.ui.h:17
+msgid "Description"
+msgstr "Descripción"
+
+#: ../src/telegnome.ui.h:1
+msgid "Page:"
+msgstr "Página:"
+
+#: ../src/telegnome.ui.h:2
+msgid "Page number"
+msgstr "Número de página"
+
+#: ../src/telegnome.ui.h:3
+msgid "_Jump to"
+msgstr ""
+
+#: ../src/telegnome.ui.h:4
+msgid "Go To Page"
+msgstr "Ir a la página"
+
+#: ../src/telegnome.ui.h:5
+msgid "_Back"
+msgstr ""
+
+#: ../src/telegnome.ui.h:6
+msgid "Get Previous Page"
+msgstr "Obtener la página anterior"
+
+#: ../src/telegnome.ui.h:7
+msgid "_Forward"
+msgstr ""
+
+#: ../src/telegnome.ui.h:8
+msgid "Get Next Page"
+msgstr "Obtener la siguiente página"
+
+#: ../src/telegnome.ui.h:9
+msgid "_Home"
+msgstr ""
+
+#: ../src/telegnome.ui.h:10
+msgid "Go to the home page"
+msgstr "Ir página inicial"
+
+#: ../src/telegnome.ui.h:11
+msgid "_Play"
+msgstr ""
+
+#: ../src/telegnome.ui.h:12
+msgid "Toggles auto-paging"
+msgstr "Conmuta el autopaginado"
+
+#: ../src/telegnome.ui.h:13 ../telegnome.appdata.xml.in.h:1
+#: ../telegnome.desktop.in.h:1
+msgid "TeleGNOME"
+msgstr "TeleGNOME"
+
+#: ../src/telegnome.ui.h:14
+msgid "Teletext for GNOME"
+msgstr "Teletexto para GNOME"
+
+#: ../src/telegnome.ui.h:15
+msgid "GNU General Public License, version 2 or later"
+msgstr "Licencia Pública General GNU, versión 2 o posterior"
+
+#: ../src/telegnome.ui.h:16
+msgid "translator-credits"
+msgstr "Jorge González <jorgegonz@svn.gnome.org>, 2009"
+
+#: ../telegnome.appdata.xml.in.h:2 ../telegnome.desktop.in.h:2
+msgid "Viewer for Teletext pages"
+msgstr "Visor para páginas de Teletexto"
+
+#: ../telegnome.appdata.xml.in.h:3
+msgid ""
+"TeleGNOME is a program to display teletext pages over the internet, based on "
+"image feeds from a variety of broadcasters."
+msgstr ""
+
+#~ msgid "TeleGNOME: Teletext for GNOME"
+#~ msgstr "TeleGNOME: Teletexto para GNOME"
+
+#~ msgid "Page url"
+#~ msgstr "URL de la página"
+
+#~ msgid "Subpage url"
+#~ msgstr "URL de la subpágina"
+
+#~ msgid "Misc"
+#~ msgstr "Varios"
+
+#~ msgid "Proxy server"
+#~ msgstr "Servidor proxy"
+
