@@ -1,18 +1,18 @@
 # translation of gimp.master.po to Español
 # Copyright © 1998-2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gimp package.
-# 
+#
 # Rodrigo Sancho Senosiain <ruy_ikari@bigfoot.com>
-# 
+#
 # Pablo G. del Campo <pablodc@bigfoot.com>, 2003, 2004.
 # Alonso Lara <keko@khor-ha.net>, 2005.
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2003, 2004, 2005, 2006.
 # Joaquín Ignacio Aramendía <samsagax@gmail.com>, 2011.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2008, 2009, 2010, 2011.
 # Francisco Vila <francisco.vila@hispalinux.es>, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013.
-# 
+#
 # Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2012, 2013, 2014, 2015.
-, 2015.
+# Yolanda Alvarez Perez <yolandaa.alvarez.perez@gmail.com>, 2016.
 #
 msgid ""
 msgstr ""
@@ -20,14 +20,14 @@ msgstr ""
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=gimp&keywords=I18N+L10N&component=general\n"
 "POT-Creation-Date: 2016-02-24 19:15+0000\n"
-"PO-Revision-Date: 2015-09-25 11:40+0200\n"
-"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
+"PO-Revision-Date: 2016-02-24 18:31-0600\n"
+"Last-Translator: Yolanda Alvarez Perez <yolandaa.alvarez.perez@gmail.com>\n"
 "Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../desktop/gimp.appdata.xml.in.h:1 ../desktop/gimp.desktop.in.in.h:1
@@ -1105,7 +1105,7 @@ msgstr "Abre el diálogo de estado de los dispositivos"
 #: ../app/actions/dialogs-actions.c:65
 msgctxt "dialogs-action"
 msgid "_Symmetry Painting"
-msgstr ""
+msgstr "_Pintado simétrico"
 
 #: ../app/actions/dialogs-actions.c:66
 #, fuzzy
@@ -1826,22 +1826,22 @@ msgstr "Corrección automática del balance de blancos"
 #: ../app/actions/drawable-actions.c:69
 msgctxt "drawable-action"
 msgid "_Dilate"
-msgstr ""
+msgstr "_Dilatar"
 
 #: ../app/actions/drawable-actions.c:70
 msgctxt "drawable-action"
 msgid "Grow lighter areas of the image"
-msgstr ""
+msgstr "Aumentar áreas más claras de la imagen"
 
 #: ../app/actions/drawable-actions.c:75
 msgctxt "drawable-action"
 msgid "E_rode"
-msgstr ""
+msgstr "_Erosionar"
 
 #: ../app/actions/drawable-actions.c:76
 msgctxt "drawable-action"
 msgid "Grow darker areas of the image"
-msgstr ""
+msgstr "Aumentar áreas más oscuras de la imagen"
 
 #: ../app/actions/drawable-actions.c:81
 msgctxt "drawable-action"
@@ -1956,11 +1956,11 @@ msgstr "El balance de blancos sólo funciona sobre capas con color RGB."
 
 #: ../app/actions/drawable-commands.c:143
 msgid "Dilate"
-msgstr ""
+msgstr "Dilatar"
 
 #: ../app/actions/drawable-commands.c:175
 msgid "Erode"
-msgstr ""
+msgstr "Erosionar"
 
 #: ../app/actions/dynamics-actions.c:43
 msgctxt "dynamics-action"
@@ -2895,7 +2895,7 @@ msgstr "_Anti-alias"
 #: ../app/actions/filters-actions.c:111
 msgctxt "filters-action"
 msgid "_Apply Canvas..."
-msgstr ""
+msgstr "_Aplicar lienzo..."
 
 #: ../app/actions/filters-actions.c:116
 #, fuzzy
@@ -2981,7 +2981,7 @@ msgstr "Matriz de transformación"
 #: ../app/actions/filters-actions.c:181
 msgctxt "filters-action"
 msgid "_Cubism..."
-msgstr ""
+msgstr "_Cubismo..."
 
 #: ../app/actions/filters-actions.c:186
 #, fuzzy
@@ -3107,7 +3107,7 @@ msgstr ""
 #: ../app/actions/filters-actions.c:281
 msgctxt "filters-action"
 msgid "_Kaleidoscope..."
-msgstr ""
+msgstr "_Caleidoscopio..."
 
 # Location lo traducimos por lugar (Serrador)
 #: ../app/actions/filters-actions.c:286
@@ -3138,7 +3138,7 @@ msgstr "Canal _nuevo…"
 #: ../app/actions/filters-actions.c:306
 msgctxt "filters-action"
 msgid "_Mosaic..."
-msgstr ""
+msgstr "_Mosaico..."
 
 #: ../app/actions/filters-actions.c:311
 #, fuzzy
@@ -9764,7 +9764,7 @@ msgstr "Transformar el grupo de capas"
 
 #: ../app/core/gimpimage.c:632 ../app/widgets/gimpsymmetryeditor.c:176
 msgid "Symmetry"
-msgstr ""
+msgstr "Simetría"
 
 #: ../app/core/gimpimage.c:2215
 msgid " (exported)"
@@ -10624,7 +10624,7 @@ msgstr "Capa flotante"
 
 #: ../app/core/gimpstrokeoptions.c:156
 msgid "Method"
-msgstr ""
+msgstr "Método"
 
 #: ../app/core/gimpstrokeoptions.c:164
 #, fuzzy
@@ -10754,7 +10754,7 @@ msgstr "Vertical"
 
 #: ../app/core/gimpsymmetry-mirror.c:137
 msgid "Central Symmetry"
-msgstr ""
+msgstr "Simetría central"
 
 #: ../app/core/gimpsymmetry-mirror.c:153
 #, fuzzy
@@ -21300,4 +21300,3 @@ msgstr "borroso"
 #~ msgctxt "tool"
 #~ msgid "_Zoom"
 #~ msgstr "_Ampliación"
-
